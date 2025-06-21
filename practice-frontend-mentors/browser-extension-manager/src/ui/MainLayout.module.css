@@ -1,0 +1,29 @@
+/* Modile */
+@media (min-width: 320px) {
+
+    .content {
+        height: 100%;
+        width: 100vw;
+        padding: 20px 16px;
+
+        display: grid;
+        grid-template-rows: auto 1fr;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .content {
+        padding: 24px 32px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+    .content {
+        max-width: 1170px;
+        margin: 40px auto;
+        padding: 0;
+    }
+}
